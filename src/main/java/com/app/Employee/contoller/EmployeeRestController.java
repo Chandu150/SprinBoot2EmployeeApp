@@ -32,6 +32,7 @@ public class EmployeeRestController {
 	}
 	//
 	//fetching all
+	
 	@GetMapping("/getAll")
 	public ResponseEntity<List<Employee>> getAllEmployees(){
 	List<Employee>	list =service.getAllEmployees();
